@@ -3,7 +3,7 @@ pin = 5755
 
 dr = int(input("Enter the amount to withdraw: "))
 
-if dr == cr:
+if dr <= cr:
     entered_pin = int(input("Enter your pin: "))
     if entered_pin == pin:
         print("Withdrawal successful")
